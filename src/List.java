@@ -14,10 +14,11 @@ public class List {
 	}
 
 	public boolean isFull() {
-		if (count == items.length)
-			return true;
-		else
-			return false;
+//		if (count == items.length)
+//			return true;
+//		else
+//			return false;
+		return count == items.length ? true : false;
 	}
 
 	public boolean insert(String newItem) {
@@ -27,4 +28,6 @@ public class List {
 		count++;
 		return true;
 	}
+	
+	
 }
