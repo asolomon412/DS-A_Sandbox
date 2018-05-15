@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class List {
 	private String items[] = new String[100];
 	private int count = 0;
@@ -28,6 +30,12 @@ public class List {
 		count++;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "List [items=" + Arrays.toString(items) + "]";
+	}
 	
+
 	
 }

@@ -1,4 +1,4 @@
-public class LinkedList extends List {
+public class LinkedList {
 	private Node head;
 	private Node current;// This will have latest node
 	public int count = 0;
